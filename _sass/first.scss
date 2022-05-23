@@ -1,0 +1,217 @@
+// familia tomando agua scss
+section.first {
+  background-image: url("images/banner-index1.jpg");
+  background-size: cover;
+
+  @media (min-width: 1079px) {  
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  p {
+    text-shadow: 0.4px 1px #f7f7f7;
+  }
+
+  .text-first {
+    color: #2F2E2A;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 68px;
+    padding-right: 122px;
+    padding-bottom: 60px;
+    padding-left: 24px;
+    margin-bottom: 0;
+
+    @media (min-width: 383px) {
+      font-size: 16px;
+      padding-top: 72px;
+      padding-right: 152px;
+      padding-bottom: 70px;
+      padding-left: 24px;
+    }
+
+    @media (min-width: 413px) {
+      font-size: 18px;
+      padding-top: 76px;
+      padding-right: 152px;
+      padding-bottom: 72px;
+      padding-left: 24px;
+    }
+
+    @media (min-width: 427px) {
+      font-size: 18px;
+      padding-top: 80px;
+      padding-right: 160px;
+      padding-bottom: 78px;
+      padding-left: 24px;
+    }
+
+    @media (min-width: 959px) {
+      font-weight: bold;
+      font-size: 14px;
+      padding-top: 58px;
+      padding-right: 110px;
+      padding-bottom: 50px;
+      padding-left: 24px;
+      margin-bottom: 0;
+    }
+
+    @media (min-width: 1079px) {
+      font-weight: bold;
+      font-size: 14px;
+      padding-top: 55px;
+      padding-right: 120px;
+      padding-bottom: 50px;
+      padding-left: 24px;
+      margin-bottom: 0;
+    }
+
+
+    @media (min-width: 1279px) {
+      font-weight: bold;
+      font-size: 14px;
+      padding-top: 56px;
+      padding-right: 122px;
+      padding-bottom: 50px;
+      padding-left: 24px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.css-typing-first p {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.css-typing-first p:nth-child(1) {
+  width: 11em;
+  -webkit-animation: type .3s steps(40, end);
+  animation: type .3s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  @media (min-width: 959px) {
+    opacity: 0;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+  }
+}
+
+.css-typing-first p:nth-child(2) {
+  width: 13em;
+  opacity: 0;
+  -webkit-animation: type2 .3s steps(40, end);
+  animation: type2 .3s steps(40, end);
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  @media (min-width: 959px) {
+    -webkit-animation-delay: 2.3s;
+    animation-delay: 2.3s;
+  }
+}
+
+.css-typing-first p:nth-child(3) {
+  width: 12em;
+  opacity: 0;
+  -webkit-animation: type3 .3s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type3 .3s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: .6s;
+  animation-delay: .6s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  @media (min-width: 959px) {
+    -webkit-animation-delay: 2.6s;
+    animation-delay: 2.6s;
+  }
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    border: none;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    border: none;
+    opacity: 1;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}

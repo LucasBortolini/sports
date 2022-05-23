@@ -1,0 +1,35 @@
+// banner index
+.banner-index {
+	h1{
+		text-shadow: 0.4px 1px #f7f7f7;
+		position: absolute;
+		max-width: 800px;
+		font-weight: bold;
+		font-size: 28px;
+		color: #2F2E2A;
+		margin-top: 240px;
+		margin-left: 200px;
+	}
+}
+
+.line-1{
+	position: relative;
+	font-size: 180%;
+	white-space: nowrap;
+	overflow: hidden;
+	transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter {
+	animation: typewriter 1s steps(44) 1s 1 normal both,
+	blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter {
+	from{width: 0;}
+	to{width: 24em;}
+}
+@keyframes blinkTextCursor {
+	from{border-right-color: rgba(255,255,255,.75);}
+	to{border-right-color: transparent;}
+}
