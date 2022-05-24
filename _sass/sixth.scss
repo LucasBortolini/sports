@@ -1,10 +1,10 @@
 section.sixth {
-  background-color: #2F2E2A;
-  border-bottom: 4px solid #EB9500;
-  border-top: 4px solid #EB9500;
+  background-color: #062248;
+  border-bottom: 4px solid #F07F0F;
+  border-top: 4px solid #F07F0F;
 
   p {
-    color: #F7F7F7;
+    color: #FFF;
   }
 
   h1 {
@@ -12,7 +12,7 @@ section.sixth {
       content: '';
       width: 100px;
       height: 2px;
-      background: #EB9500;
+      background: #FFF;
       display: block;
       margin: 7px 0;
     }
@@ -22,7 +22,7 @@ section.sixth {
     &::after {
       content: '';
       height: 2px;
-      background: #EB9500;
+      background: #F07F0F;
       display: block;
       margin: 7px 0;
       width: 35%;
@@ -32,7 +32,7 @@ section.sixth {
 
   h3 {
     font-size: 15px;
-    color: #EB9500;
+    color: #FFF;
     font-weight: bold;
     margin-bottom: 28px;
     margin-top: 32px;
@@ -45,13 +45,13 @@ section.sixth {
 
   .font-title {
     font-size: 22px;
-    color: #EB9500;
+    color: #FFF;
     font-weight: bold;
   }
 
   .font-more {
     font-size: 16px;
-    color: #EB9500;
+    color: #FFF;
     font-weight: bold;
   }
 
@@ -71,17 +71,14 @@ section.sixth {
       background: transparent;
       border: none;
       border-bottom: 3px solid;
+      border-color: #FFF;
       font-weight: 700;
-
-      @media (min-width: 576px) {
-        border-color: #989898;
-      }
     }
   }
 }
 
 a {
-  color: #333;
+  color: #FFF;
   text-decoration: none;
   transition: color 0.2s;
   outline: none;
@@ -89,7 +86,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #222;
+  color: #FFF;
 }
 
 a.flip-animate-sixth {
@@ -128,6 +125,6 @@ a.flip-animate-sixth {
   
   &:hover span:before,
   &:focus span:before {
-    color: rgb(247, 247, 247);
+    color: rgb(240, 127, 15);
   }
 }

@@ -1,7 +1,7 @@
 .fourth {
   background-repeat: no-repeat;
   background-size: cover;
-  border-top: 4px solid #EB9500;
+  border-top: 4px solid #F07F0F;
   background-image: url("images/indique-mobile.jpg");
 
   @media (min-width: 959px) {
@@ -12,6 +12,7 @@
     font-size: 14px;
     text-align: center;
     padding: 0 32px;
+    text-shadow: 0.4px 1px #062248;
 
     @media (min-width: 383px) {
       padding: 0 48px;
@@ -53,7 +54,7 @@
       margin-bottom: 0;
       margin-top: 4px;
       font-weight: 100;
-      color: gray;
+      color: #FFF;
     }
   }
 
@@ -94,7 +95,7 @@
 }
 
 input.form-control.btn.indicate-btn {
-  background-color: #EB9500;
+  background-color: #F07F0F;
   color: #F7F7F7;
   height: 30px;
   font-size: 18px;

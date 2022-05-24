@@ -1,10 +1,10 @@
 .footer-1 {
 	background-color: #F7F7F7;
-	color: #2F2E2A;
+	color: #062248;
 	font-size: 14px;
 	font-weight: bold;
   padding: 0 20px;
-  border-bottom: 4px solid #EB9500;
+  border-bottom: 4px solid #F07F0F;
 
   a {
     color: inherit;
@@ -22,14 +22,14 @@
   .line {
     width: auto;
     height: 2px;
-    background: #2F2E2A;
+    background: #062248;
     display: block;
   }
 
   .line-2 {
     width: auto;
     height: 2px;
-    background: #2F2E2A;
+    background: #062248;
     display: block;
 
     @media (min-width: 576px) {
@@ -104,7 +104,6 @@
       }
 
       h6 {
-        padding-top: 10px;
         margin-right: 8px;
       }
     }
@@ -152,7 +151,7 @@
 }
 
 .footer-2 {
-	background-color: #2F2E2A;
+	background-color: #062248;
 
   .section-wrapper {
     min-height: 64px;
@@ -195,7 +194,7 @@
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
-  color: #EB9500;
+  color: #FFF;
   font-weight: bold;
   font-size: 11px;
   text-align: center;
@@ -294,6 +293,6 @@ a.flip-animate {
   
   &:hover span:before,
   &:focus span:before {
-    color: rgb(235, 149, 0);
+    color: rgb(240, 127, 15);
   }
 }
