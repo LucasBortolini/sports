@@ -16,65 +16,35 @@ section.first {
     color: #2F2E2A;
     font-weight: bold;
     font-size: 16px;
-    padding-top: 68px;
-    padding-right: 122px;
-    padding-bottom: 60px;
-    padding-left: 24px;
+    text-align: center;
+    padding-top: 125px;
     margin-bottom: 0;
 
     @media (min-width: 383px) {
       font-size: 16px;
-      padding-top: 72px;
-      padding-right: 152px;
-      padding-bottom: 70px;
-      padding-left: 24px;
+      padding-top: 132px;
     }
 
     @media (min-width: 413px) {
       font-size: 18px;
-      padding-top: 76px;
-      padding-right: 152px;
-      padding-bottom: 72px;
-      padding-left: 24px;
+      padding-top: 142px;
     }
 
     @media (min-width: 427px) {
       font-size: 18px;
-      padding-top: 80px;
-      padding-right: 160px;
-      padding-bottom: 78px;
-      padding-left: 24px;
+      padding-top: 148px;
     }
 
     @media (min-width: 959px) {
       font-weight: bold;
       font-size: 14px;
-      padding-top: 58px;
-      padding-right: 110px;
-      padding-bottom: 50px;
-      padding-left: 24px;
-      margin-bottom: 0;
+      padding-top: 114px;
     }
 
     @media (min-width: 1079px) {
       font-weight: bold;
       font-size: 14px;
-      padding-top: 55px;
-      padding-right: 120px;
-      padding-bottom: 50px;
-      padding-left: 24px;
-      margin-bottom: 0;
-    }
-
-
-    @media (min-width: 1279px) {
-      font-weight: bold;
-      font-size: 14px;
-      padding-top: 56px;
-      padding-right: 122px;
-      padding-bottom: 50px;
-      padding-left: 24px;
-      margin-bottom: 0;
+      padding-top: 114px;
     }
   }
 }

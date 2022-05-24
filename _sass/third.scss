@@ -9,22 +9,22 @@ section.third {
   }
 
   p {
-    color: #FFF;
+    color: #062248;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 13px;
     text-align: right;
     margin-bottom: 2px;
 
     @media (min-width: 383px) {
-      font-size: 12px;
-    }
-
-    @media (min-width: 413px) {
       font-size: 13px;
     }
 
-    @media (min-width: 427px) {
+    @media (min-width: 413px) {
       font-size: 14px;
+    }
+
+    @media (min-width: 427px) {
+      font-size: 16px;
     }
 
     @media (min-width: 959px) {
@@ -60,7 +60,7 @@ section.third {
   }
 
   .phone-icon {
-    height: 220px;
+    height: 224px;
     margin-top: -12px;
     margin-right: 6px;
     margin-left: 10px;
@@ -68,11 +68,11 @@ section.third {
     right: 0;
 
     @media (min-width: 413px) {
-      height: 228px;
+      height: 236px;
     }
 
     @media (min-width: 427px) {
-      height: 236px;
+      height: 248px;
     }
 
     @media (min-width: 959px) {
@@ -89,24 +89,22 @@ section.third {
   }
 
   .text-wrapper {
-    padding-right: 132px;
+    padding-right: 140px;
     padding-left: 100px;
     padding-top: 28px;
     padding-bottom: 20px;
 
     @media (min-width: 383px) {
-      padding-left: 128px;
+      padding-right: 144px;
     }
 
     @media (min-width: 413px) {
-      padding-left: 136px;
-      margin-right: 8px;
+      margin-right: 14px;
       margin-bottom: 4px;
     }
 
     @media (min-width: 427px) {
-      padding-left: 144px;
-      margin-right: 8px;
+      margin-right: 16px;
       margin-bottom: 8px
     }
 
