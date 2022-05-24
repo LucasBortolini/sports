@@ -57,7 +57,11 @@
 
     @media (min-width: 579px) {
       &:hover {
-        background-color: #EB9500;
+        background-color: #062248;
+
+        & > div h4 {
+          color: #FFF;
+        }
       }
     }
   }
