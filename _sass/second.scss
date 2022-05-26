@@ -70,8 +70,8 @@ section.second {
   animation-fill-mode: forwards;
 
   @media (min-width: 959px) {
-    -webkit-animation-delay: 2.9s;
-    animation-delay: 2.9s;
+    -webkit-animation-delay: 2.2s;
+    animation-delay: 2.2s;
   }
 }
 
@@ -86,8 +86,8 @@ section.second {
   animation-fill-mode: forwards;
 
   @media (min-width: 959px) {
-    -webkit-animation-delay: 3.2s;
-    animation-delay: 3.2s;
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
   }
 }
 
@@ -102,8 +102,56 @@ section.second {
   animation-fill-mode: forwards;
 
   @media (min-width: 959px) {
-    -webkit-animation-delay: 3.5s;
-    animation-delay: 3.5s;
+    -webkit-animation-delay: 2.8s;
+    animation-delay: 2.8s;
+  }
+}
+
+.css-typing-second p:nth-child(4) {
+  width: 14.9em;
+  opacity: 0;
+  -webkit-animation: type4 .3s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type4 .3s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 1.8s;
+  animation-delay: 1.8s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  @media (min-width: 959px) {
+    -webkit-animation-delay: 3.1s;
+    animation-delay: 3.1s;
+  }
+}
+
+.css-typing-second p:nth-child(5) {
+  width: 14.9em;
+  opacity: 0;
+  -webkit-animation: type5 .3s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type5 .3s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 2.1s;
+  animation-delay: 2.1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  @media (min-width: 959px) {
+    -webkit-animation-delay: 3.4s;
+    animation-delay: 3.4s;
+  }
+}
+
+.css-typing-second p:nth-child(6) {
+  width: 14.9em;
+  opacity: 0;
+  -webkit-animation: type6 .3s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type6 .3s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 2.4s;
+  animation-delay: 2.4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  @media (min-width: 959px) {
+    -webkit-animation-delay: 3.7s;
+    animation-delay: 3.7s;
   }
 }
 
@@ -172,6 +220,80 @@ section.second {
 }
 
 @-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes type5 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type5 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes type6 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type6 {
   0% {
     width: 0;
   }

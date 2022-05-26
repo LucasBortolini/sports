@@ -54,7 +54,7 @@ section.first {
   overflow: hidden;
 }
 .css-typing-first p:nth-child(1) {
-  width: 11em;
+  width: 22em;
   -webkit-animation: type .3s steps(40, end);
   animation: type .3s steps(40, end);
   -webkit-animation-fill-mode: forwards;
@@ -62,13 +62,13 @@ section.first {
 
   @media (min-width: 959px) {
     opacity: 0;
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
+    -webkit-animation-delay: 1.3s;
+    animation-delay: 1.3s;
   }
 }
 
 .css-typing-first p:nth-child(2) {
-  width: 13em;
+  width: 22em;
   opacity: 0;
   -webkit-animation: type2 .3s steps(40, end);
   animation: type2 .3s steps(40, end);
@@ -78,13 +78,13 @@ section.first {
   animation-fill-mode: forwards;
 
   @media (min-width: 959px) {
-    -webkit-animation-delay: 2.3s;
-    animation-delay: 2.3s;
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
   }
 }
 
 .css-typing-first p:nth-child(3) {
-  width: 12em;
+  width: 22em;
   opacity: 0;
   -webkit-animation: type3 .3s steps(40, end), blink .5s step-end infinite alternate;
   animation: type3 .3s steps(40, end), blink .5s step-end infinite alternate;
@@ -94,8 +94,8 @@ section.first {
   animation-fill-mode: forwards;
 
   @media (min-width: 959px) {
-    -webkit-animation-delay: 2.6s;
-    animation-delay: 2.6s;
+    -webkit-animation-delay: 1.9s;
+    animation-delay: 1.9s;
   }
 }
 
