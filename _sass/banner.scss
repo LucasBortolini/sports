@@ -3,12 +3,11 @@
 	h1{
 		text-shadow: 0.4px 1px #000;
 		position: absolute;
-		max-width: 640px;
+		max-width: 676px;
 		font-weight: bold;
-		font-size: 33px;
+		font-size: 24px;
 		color: #FFF;
 		margin-top: 290px;
-		margin-left: 8px;
 	}
 }
 
@@ -20,16 +19,31 @@
 	transform: translateY(-50%);    
 }
 
-/* Animation */
-.anim-typewriter {
-	animation: typewriter 1s steps(44) 1s 1 normal both,
-	blinkTextCursor 500ms steps(44) infinite normal;
+
+h1 {
+  color: #333;
+  text-transform: uppercase;
+  overflow: hidden;
+  width: 676px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-@keyframes typewriter {
-	from{width: 0;}
-	to{width: 24em;}
+
+.message {
+  background-image: url("images/index-banner.png");
+  color: #333;
+  display: block;
+  font-weight: 900;
+  position: absolute;
+  padding-left: 0.5rem;
+  animation: openclose 8s ease-in-out;
 }
-@keyframes blinkTextCursor {
-	from{border-right-color: rgba(255,255,255,.75);}
-	to{border-right-color: transparent;}
+
+@keyframes openclose {
+  5% {
+    width: 0;
+  }
+  15% {
+    width: 676px;
+  }
 }
