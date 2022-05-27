@@ -8,6 +8,11 @@
 		font-size: 24px;
 		color: #FFF;
 		margin-top: 290px;
+    text-transform: uppercase;
+    overflow: hidden;
+    width: 676px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 	}
 }
 
@@ -17,16 +22,6 @@
 	white-space: nowrap;
 	overflow: hidden;
 	transform: translateY(-50%);    
-}
-
-.banner-animation {
-  h1 {
-    text-transform: uppercase;
-    overflow: hidden;
-    width: 676px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
 }
 
 .message {
