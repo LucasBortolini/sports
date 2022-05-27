@@ -19,14 +19,14 @@
 	transform: translateY(-50%);    
 }
 
-
-h1 {
-  color: #333;
-  text-transform: uppercase;
-  overflow: hidden;
-  width: 676px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+.banner-animation {
+  h1 {
+    text-transform: uppercase;
+    overflow: hidden;
+    width: 676px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 
 .message {
